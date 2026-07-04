@@ -110,7 +110,7 @@
       width: 100%;
       height: 100%;
       border-radius: 50%;
-      background: #1a2639;
+      background: #89b0f0;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -118,7 +118,7 @@
       font-weight: 600;
       color: white;
       letter-spacing: 2px;
-      background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="40" r="25" fill="%2300d2ff" opacity="0.08"/><circle cx="50" cy="70" r="30" fill="%236c5ce7" opacity="0.06"/></svg>');
+      background-image: url('percha.jpg');
       background-size: cover;
       background-blend-mode: overlay;
     }
@@ -509,24 +509,24 @@
 
     <!-- Avatar -->
     <div class="avatar">
-      <div class="avatar-inner">CM</div>
+      <div class="avatar-inner"></div>
     </div>
 
     <!-- Nombre + insignia -->
-    <h1 class="name">Carlos Méndez</h1>
+    <h1 class="name">Vidrieria DonPerchas</h1>
     <div class="badge">
       <i class="fas fa-circle"></i> 
-      <span>Ingeniero de Software · PRO</span>
+      <span>Corte servicio de instalacion</span>
       <i class="fas fa-circle"></i>
     </div>
-    <p class="title">Arquitecto Cloud · Full Stack Developer</p>
+    <p class="title">Federecion Ecuatoriana de Aluminieros</p>
 
     <!-- Especialidades -->
     <div class="specialties">
       <span class="specialty-tag"><i class="fas fa-cloud" style="margin-right: 4px;"></i> AWS</span>
-      <span class="specialty-tag"><i class="fas fa-code"></i> React/Node</span>
-      <span class="specialty-tag"><i class="fas fa-database"></i> MongoDB</span>
-      <span class="specialty-tag"><i class="fas fa-microchip"></i> IoT</span>
+      <span class="specialty-tag"><i class="fas fa-code"></i> Ventanas</span>
+      <span class="specialty-tag"><i class="fas fa-database"></i> Puertas</span>
+      <span class="specialty-tag"><i class="fas fa-microchip"></i> Mamparas</span>
     </div>
 
     <div class="divider"></div>
@@ -535,17 +535,17 @@
     <div class="contact-list">
       <div class="contact-item" onclick="copiarTexto('carlos.mendez@pro.engineer', this)">
         <i class="fas fa-envelope"></i>
-        <span>carlos.mendez@pro.engineer</span>
+        <span>patriciovaldez944@gmail.com</span>
         <span class="copy-feedback"><i class="fas fa-check"></i> Copiado</span>
       </div>
       <div class="contact-item" onclick="copiarTexto('+521234567890', this)">
         <i class="fas fa-phone-alt"></i>
-        <span>+52 1 234 567 890</span>
+        <span>+593980292129</span>
         <span class="copy-feedback"><i class="fas fa-check"></i> Copiado</span>
       </div>
       <div class="contact-item" onclick="mostrarUbicacion()">
         <i class="fas fa-map-pin"></i>
-        <span>CDMX · Torre Mayor</span>
+        <span>La Troncal FQ</span>
         <span class="copy-feedback"><i class="fas fa-info-circle"></i> Info</span>
       </div>
       <div class="contact-item" onclick="window.open('https://github.com/carlosmendez-dev', '_blank')">
@@ -672,7 +672,7 @@
     function enviarWhatsApp() {
       const numero = '521234567890';
       const mensaje = 'Hola Carlos, vi tu tarjeta digital y me gustaría contactarte.';
-      const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`;
+      const url = `https://wa.me/${593980292129}?text=${encodeURIComponent(hola)}`;
       window.open(url, '_blank');
       showToast('📱 Abriendo WhatsApp...', 'fa-whatsapp', '#25d366');
     }
